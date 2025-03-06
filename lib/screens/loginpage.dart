@@ -5,6 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:vitallinkv2/screens/doctor/doctorhome.dart';
 import 'package:vitallinkv2/screens/patients/patienthome.dart';
 import 'package:vitallinkv2/screens/receptionist/receptionisthome.dart';
+import 'package:vitallinkv2/screens/forgetpass.dart';
 
 class loginpage extends StatefulWidget {
   const loginpage({Key? key}) : super(key: key);
@@ -123,10 +124,11 @@ class _SignInPageState extends State<loginpage> {
                   const SizedBox(height: 10),
                   TextButton(
                     onPressed: () {
-                      // TODO: Implement forgot password functionality
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                            content: Text('Forgot Password clicked')),
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ForgetPass(),
+                        ),
                       );
                     },
                     child: const Text('Forgot Password?'),

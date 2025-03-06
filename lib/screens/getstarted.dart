@@ -3,6 +3,7 @@ import 'package:dropdown_textfield/dropdown_textfield.dart';
 import 'package:passwordfield/passwordfield.dart';
 import 'package:vitallinkv2/screens/loginpage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:vitallinkv2/screens/forgetpass.dart';
 
 void main() {
   runApp(const MyApp());
