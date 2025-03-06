@@ -1,0 +1,2 @@
+C:/Users/User/Documents/GitHub/VitalLink/android/app/.cxx/Debug/b18675r3/x86/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GitHub/VitalLink/android/app/.cxx/Debug/b18675r3/x86/CMakeFiles/rebuild_cache.dir
