@@ -1,1 +1,1 @@
-# VitalLink
+Package Name = com.groupone.vitallink
